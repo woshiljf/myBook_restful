@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<script>
+
+     var a= 123;
+
+     function fn() {
+     	// body...
+        console.log(this.a);
+     }
+    
+
+     var obj = {
+
+     	a:1234564
+
+     }
+
+   var fn1 = fn.bind(obj)  //改变fn中this 的指向,指向obj对象
+
+   
+		
+
+
+
+		
+	</script>
+</body>
+</html>
