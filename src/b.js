@@ -1,1 +1,1 @@
-var b = 2
+const o = {a:0,b:1}
